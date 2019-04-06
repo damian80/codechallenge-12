@@ -1,0 +1,50 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    color:#333;
+    font-family: 'Dokdo',
+    cursive;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 17px;
+    text-align: center;
+    flex:0 0 80%;
+}
+
+button {
+    display:block;
+    font-size: 1rem;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    color:#fff;
+    background-color:lightslategray;
+    outline: none;
+    border-radius: 8px;
+    border:none;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    color:lightseagreen;
+}
+input {
+    padding: 0.5rem;
+    margin:1rem;
+    border-radius:5px;
+    border: solid 3px lightsteelblue;
+    outline:none;
+    font-size:1.5rem;
+    box-shadow: 0 0 10px;
+}
+#messageOut {
+    margin:0.5rem 0;
+    color :lightseagreen;
+}
+
